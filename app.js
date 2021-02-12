@@ -40,7 +40,7 @@ const Index = {
               I have always had some kind of animal in my house, whether it be Dogs, Cats, or even Guinea Pigs. I grew up in a pet friendly household. </p>
 
               <p>I am fully insured, DBS checked and Dog First Aid trained.</p>
-              <h3 style="text-align:center">Get in <router-link to="/contact">contact</router-link> to arrange a free meet and greet!</h3>
+              <h3 style="text-align:center">Get in <router-link to="/laurenshappyhounds/contact">contact</router-link> to arrange a free meet and greet!</h3>
             </div>
           </div>
       
@@ -334,7 +334,7 @@ const Contact = {
             </textarea>
             <div id="GdprText"> 
               <input type="checkbox" name="confirmed" required>
-              <p>I confirm that I have read and agree to Laurens' Happy Hounds <router-link to="/privacy"> privacy policy</router-link></p>
+              <p>I confirm that I have read and agree to Laurens' Happy Hounds <router-link to="/laurenshappyhounds/privacy"> privacy policy</router-link></p>
             </div>
             <button v-html="responseMessage" id="sendMessage"></button>
           </form>
@@ -393,25 +393,25 @@ const Privacy = {
     <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
     
     <h3>Contact Us</h3>
-    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to <router-link to="/contact">contact us. </router-link></p>
+    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to <router-link to="/laurenshappyhounds/contact">contact us. </router-link></p>
   </div>
   `
 }
 
 const routes = [{
-    path: '/',
+    path: '/laurenshappyhounds',
     component: Index
   },
   {
-    path: '/contact',
+    path: '/laurenshappyhounds/contact',
     component: Contact
   },
   {
-    path: '/pricing',
+    path: '/laurenshappyhounds/pricing',
     component: Pricing
   },
   {
-    path: '/privacy',
+    path: '/laurenshappyhounds/privacy',
     component: Privacy
   }
 ]

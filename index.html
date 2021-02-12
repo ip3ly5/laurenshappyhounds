@@ -32,9 +32,9 @@
 <div id="app">
     <div v-show="showModal" id="burgerModal">
         <div>
-            <router-link to="/" @click.native="showModal = false">Home</router-link>
-            <router-link to="/pricing" @click.native="showModal = false">Pricing</router-link>
-            <router-link to="/contact" @click.native="showModal = false">Contact</router-link>
+            <router-link to="/laurenshappyhounds" @click.native="showModal = false">Home</router-link>
+            <router-link to="/laurenshappyhounds/pricing" @click.native="showModal = false">Pricing</router-link>
+            <router-link to="/laurenshappyhounds/contact" @click.native="showModal = false">Contact</router-link>
         </div>
     </div>
         <nav>
@@ -44,9 +44,9 @@
                 
                     <div class="navbar">
                         <div class="left">
-                            <router-link to="/" class="button">Home</router-link>
-                            <router-link to="/pricing">Pricing</router-link>
-                            <router-link to="/contact">Contact</router-link>
+                            <router-link to="/laurenshappyhounds" class="button">Home</router-link>
+                            <router-link to="/laurenshappyhounds/pricing">Pricing</router-link>
+                            <router-link to="/laurenshappyhounds/contact">Contact</router-link>
                         </div>
                         <div class="right">
                             <!-- use router-link component for navigation. -->
@@ -78,7 +78,7 @@
     <router-view @click.native="showModal = false"></router-view>
     </keep-alive>
 
-    <div id="copyright">Copyright © Lewis Burtt-Smith | <router-link to="/privacy">privacy</router-link></div>
+    <div id="copyright">Copyright © Lewis Burtt-Smith | <router-link to="/laurenshappyhounds/privacy">privacy</router-link></div>
     </div>
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script>
