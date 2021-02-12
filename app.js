@@ -27,7 +27,7 @@ const Index = {
     `<div class="content">
       <div class="centerContent">
         <div id="laurenImg">
-          <img src="images/profilepic.gif" alt="Picture of Lauren, a blonde smiley girl crouching next to a small dog.">
+          <img src="../laurenshappyhounds/images/profilepic.gif" alt="Picture of Lauren, a blonde smiley girl crouching next to a small dog.">
           <h1 id="laurenTxt">Hi, I'm Lauren! 🐾</h1>
         </div>
         <div id="infoMapDiv">
